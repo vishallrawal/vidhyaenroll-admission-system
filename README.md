@@ -1,5 +1,7 @@
 # VidyaEnroll | AI-Powered Indian School & College Admission Council Portal
 
+🚀 **Live Deployment Link:** [https://vishallrawal.github.io/vidhyaenroll-admission-system/](https://vishallrawal.github.io/vidhyaenroll-admission-system/)
+
 VidyaEnroll is an ultra-premium, AI-powered online admission council system customized for Indian schools and colleges (CBSE, ICSE, State Boards). Built using React, TypeScript, Vite, Bootstrap 5, and custom glassmorphism styles, it guides students from stream selection counseling to digital document submission and fee clearance.
 
 ---
