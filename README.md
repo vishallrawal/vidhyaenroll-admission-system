@@ -79,18 +79,14 @@ npm run build
 
 ## 🌐 Live Deployment Guide
 
-You can deploy this React SPA with one click using these popular hosting platforms:
+You can deploy this React SPA using these popular hosting platforms:
 
-### Option A: Deploy to Netlify (Recommended)
+### Option A: Deploy to Netlify
 1. Install Netlify CLI: `npm install -g netlify-cli`
 2. Run production build: `npm run build`
 3. Deploy assets: `netlify deploy --dir=dist --prod`
 
-### Option B: Deploy to Vercel
-1. Install Vercel CLI: `npm install -g vercel`
-2. Run deployment: `vercel` (point to the root project directory and select defaults)
-
-### Option C: Deploy to GitHub Pages
+### Option B: Deploy to GitHub Pages
 1. Initialize git and commit:
    ```bash
    git init
