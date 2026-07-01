@@ -121,11 +121,11 @@ function App() {
               <ul className="list-unstyled d-flex flex-column gap-2" style={{ fontSize: '13px' }}>
                 <li className="d-flex align-items-center gap-2">
                   <Mail size={14} className="text-warning" />
-                  <span>admissions-desk@vidyaenroll.gov.in</span>
+                  <span><a href="mailto:vishalrawal448@gmail.com" className="text-white text-decoration-none hover-white">vishalrawal448@gmail.com</a></span>
                 </li>
                 <li className="d-flex align-items-center gap-2">
                   <Phone size={14} className="text-warning" />
-                  <span>+91-11-2894-8201 / +91-11-2894-8202</span>
+                  <span><a href="tel:+918128073844" className="text-white text-decoration-none hover-white">+91 8128073844</a></span>
                 </li>
                 <li className="d-flex align-items-start gap-2">
                   <MapPin size={14} className="text-warning mt-0.5" />
