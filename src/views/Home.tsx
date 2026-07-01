@@ -76,7 +76,7 @@ export const Home: React.FC<HomeProps> = ({ setCurrentView, apiKey, onApplyWithM
           <div className="col-lg-4 col-md-6">
             <div className="card glass-card h-100 border-0 p-3 shadow-sm">
               <div className="ratio ratio-16x9 mb-3 bg-secondary rounded overflow-hidden relative">
-                <img src="/campus_school_1.jpg" alt="Vidya Public School Campus" className="object-fit-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                <img src={`${import.meta.env.BASE_URL}campus_school_1.jpg`} alt="Vidya Public School Campus" className="object-fit-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
                 <div className="position-absolute top-0 start-0 w-100 h-100 gradient-bg opacity-25"></div>
                 <span className="badge bg-warning text-dark fw-bold position-absolute top-2 start-2 m-2" style={{ width: 'fit-content' }}>CBSE Board</span>
               </div>
@@ -94,7 +94,7 @@ export const Home: React.FC<HomeProps> = ({ setCurrentView, apiKey, onApplyWithM
           <div className="col-lg-4 col-md-6">
             <div className="card glass-card h-100 border-0 p-3 shadow-sm">
               <div className="ratio ratio-16x9 mb-3 bg-secondary rounded overflow-hidden relative">
-                <img src="/campus_school_2.jpg" alt="St. Xavier's Academy Campus" className="object-fit-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                <img src={`${import.meta.env.BASE_URL}campus_school_2.jpg`} alt="St. Xavier's Academy Campus" className="object-fit-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
                 <div className="position-absolute top-0 start-0 w-100 h-100 gradient-bg opacity-25"></div>
                 <span className="badge bg-warning text-dark fw-bold position-absolute top-2 start-2 m-2" style={{ width: 'fit-content' }}>CISCE / ICSE Board</span>
               </div>
@@ -112,7 +112,7 @@ export const Home: React.FC<HomeProps> = ({ setCurrentView, apiKey, onApplyWithM
           <div className="col-lg-4 col-md-12">
             <div className="card glass-card h-100 border-0 p-3 shadow-sm">
               <div className="ratio ratio-16x9 mb-3 bg-secondary rounded overflow-hidden relative">
-                <img src="/campus_college.jpg" alt="Sharda Institute Campus" className="object-fit-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                <img src={`${import.meta.env.BASE_URL}campus_college.jpg`} alt="Sharda Institute Campus" className="object-fit-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
                 <div className="position-absolute top-0 start-0 w-100 h-100 gradient-bg opacity-25"></div>
                 <span className="badge bg-warning text-dark fw-bold position-absolute top-2 start-2 m-2" style={{ width: 'fit-content' }}>NAAC A+ University</span>
               </div>
